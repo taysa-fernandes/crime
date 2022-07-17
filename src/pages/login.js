@@ -8,16 +8,16 @@ export default function Home() {
       <h1>Login</h1>
       <form>
         <div className='divLabel'>
-          <label for="cpf">CPF: </label>
+          <label htmlFor="cpf">CPF: </label>
           <input type="text" name="cpf" placeholder="000.000.000-00"/>
           </div>
           <br/><br/>
           <div className='divLabel'>
-          <label for="senha">Senha: </label>
+          <label htmlFor="senha">Senha: </label>
           <input id="senha" type="password"/>
           </div>
           <br/><br/>
-          <button>Enviar</button>
+          <button><a href="crimes">Login</a></button>
         </form>
    </div>
   )

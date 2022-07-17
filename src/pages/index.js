@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import sequelize from 'sequelize'
 
 
 export default function Home() {
@@ -12,7 +13,8 @@ export default function Home() {
         <p>São considerados crimes ambientais as agressões ao meio ambiente e seus componentes (flora, fauna, recursos naturais, patrimônio cultural) que ultrapassam os limites estabelecidos por lei. Ou ainda, a conduta que ignora normas ambientais legalmente estabelecidas mesmo que não sejam causados danos ao meio ambiente.</p>
         <p>Existem contra a fauna, a flora, a poluição e outros.</p>
         <p>Causar poluição de qualquer natureza em níveis tais que resultem ou possam resultar em danos à saúde humana, ou que provoquem a mortandade de animais ou a destruição significativa da flora: Pena - reclusão, de um a quatro anos, e multa. § 1º Se o crime é culposo: Pena - detenção, de seis meses a um ano, e multa.</p>
-
+        <button><a href="login">Fazer login</a></button>
+        <button><a href="cadastro">Fazer cadastro</a></button>
    </div>
   )
 }

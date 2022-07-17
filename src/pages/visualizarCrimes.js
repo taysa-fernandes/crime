@@ -10,12 +10,12 @@ export default function Home() {
         <div className='divLabel'>
 
             <div className='divLateral'>
-        <label for="data">Data: </label>
+        <label htlmFor="data">Data: </label>
         <input id ="data" type="date" name="data"/>
         </div>
         <br/><br/>
         <div className='divLabel'>
-        <label for="local">Local: </label>
+        <label htmlFor="local">Local: </label>
         <input id ="local" type="text" name="local" />
             </div>
         </div>
